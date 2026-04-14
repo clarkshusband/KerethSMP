@@ -1,0 +1,13 @@
+
+            Dream Survival
+         by Dream Developments
+
+╭ How to add the texture pack to your server?
+| The texture is already added, but we recommend replacing it with your own
+
+1. ・ Move the texture to desktop
+2. ・ Go to https://mc-packs.net/
+3. ・ Uploud the texture pack
+4. ・ Copy the download url
+5. ・ Go to * Dream Core * folder
+6. ・ Paste the download url at resourcePack: ''

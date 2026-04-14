@@ -1,0 +1,5 @@
+Name: '&fⶼ &6Daily Key'
+Virtual: false
+ItemData:
+  Type: VANILLA
+  ItemTag: '{components:{"minecraft:custom_model_data":{floats:[141.0f]},"minecraft:custom_name":''{"extra":[{"color":"white","italic":false,"text":""}],"text":""}'',"minecraft:damage":0,"minecraft:hide_additional_tooltip":{},"minecraft:lore":[''{"extra":[{"color":"gray","italic":false,"text":"ᴜsᴇ ᴛʜɪs ᴋᴇʏ ᴀᴛ"}],"text":""}'',''{"extra":[{"color":"gray","italic":false,"text":"/ᴡᴀʀᴘ ᴄʀᴀᴛᴇs"}],"text":""}'',''""'',''{"extra":[{"color":"dark_gray","italic":false,"text":"ᴅᴀɪʟʏ ᴄʀᴀᴛᴇ"}],"text":""}'']},count:1,id:"minecraft:stick"}'

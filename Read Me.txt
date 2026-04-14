@@ -1,0 +1,14 @@
+
+            Dream Survival
+         by Dream Developments
+
+・ To install Dream Survival you will need to move the files from the "Server Files" folder and add them to your host 
+along with a corresponding jar.
+
+・ In order for the setup to run perfectly, you need a 1.21.4 jar. (Recommended - Paper)
+・ Any 1.20.x+ version can also be used, but with small plugin changes, such as World Guard.
+
+・ Dependencies plugins: Angel Chest
+
+╭ Support & Contact:
+| https://discord.gg/dream-developments-746768784139747400

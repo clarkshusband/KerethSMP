@@ -1,0 +1,19 @@
+
+            Important Info
+         by Dream Developments
+
+Starting with version 1.21.4, the structure of custom textures has been modified. To maintain compatibility with previous versions while using the new structure, two separate texture packs are required: one for all versions up to 1.21.3 and another for versions 1.21.4 and beyond. 
+
+╭ How to keep the branded texture pack?
+| To preserve the branding from the old texture in the new one, open the old texture pack 
+| (if you don't have it, you can download it from the link found in Dream Core config), 
+| identify the following files containing your branding, copy them, and add them to the new texture 
+| pack in the exact same directory structure and with the same file names.
+
+ ・ pack.png
+ ・ pack.mcmeta
+ ・ assets > minecraft > textures > item > ui > tab > logo.png
+ ・ assets > minecraft > textures > item > ui > scoreboard > overlay.png
+ ・ assets > minecraft > textures > item > ui > exit_screen > exit_header.png
+
+# 17773TDG61

@@ -1,0 +1,586 @@
+npcs:
+  99bc1bf1-a677-48a0-a2fb-bf3274628097:
+    name: sylvia
+    creator: f7e20c1a-e38a-442e-ad85-f1c8edba4ccd
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: world
+      x: -27.5076
+      y: 66.0
+      z: -68.4959
+      yaw: -89.1568
+      pitch: -0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: blue
+    turnToPlayer: false
+    interactionCooldown: 0.0
+    scale: 1.0
+    skin:
+      mirrorSkin: false
+      identifier: 1fe9c490-1434-460f-be59-5db932c597fa
+      variant: AUTO
+    equipment:
+      HEAD:
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: LEATHER_HORSE_ARMOR
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          display-name: '{"text":"ʜᴏᴍʙᴜʀɢ ","italic":false,"color":"#8D580F"}'
+          lore:
+          - '{"text":"ɪᴅᴇᴀʟ ꜰᴏʀ ᴀɴ","italic":false,"color":"gray"}'
+          - '{"text":"ᴀɴᴄɪᴇɴᴛ ᴡʀɪᴛᴇʀ ","italic":false,"color":"gray"}'
+          custom-model-data:
+            ==: CustomModelData
+            floats:
+            - 11.0
+            flags: []
+            strings: []
+            colors: []
+      MAINHAND:
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: STICK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴛʜᴀᴛ ʜᴇʟᴘꜱ ʏᴏᴜ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"ɢᴇᴛ ᴛᴏ ᴍᴀɪɴ ᴍᴇɴᴜꜱ ꜰᴀꜱᴛᴇʀ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gray"}]}'
+          - '""'
+          - '{"text":"","extra":[{"text":" ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"white"},{"text":"ʟᴇꜰᴛ
+            ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ","italic":false,"color":"yellow"}]}'
+          custom-model-data:
+            ==: CustomModelData
+            floats:
+            - 10.0
+            flags: []
+            strings: []
+            colors: []
+          custom: H4sIAAAAAAAA/+NiYOBg4PUsSc31ys/MU/BLzE1lYM1NzSs1ZAAAWivpMRsAAAA=
+    visibility_distance: -1
+    actions:
+      RIGHT_CLICK:
+        '1':
+          action: player_command
+          value: jb sksylvia || forms open sylvia
+  52419ca0-ab71-443e-aa5a-e4571d8ff85b:
+    name: gandalf
+    creator: f7e20c1a-e38a-442e-ad85-f1c8edba4ccd
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: world
+      x: -45.5115
+      y: 66.0
+      z: -65.5339
+      yaw: -89.8277
+      pitch: -1.5001
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: black
+    turnToPlayer: false
+    interactionCooldown: 0.0
+    scale: 1.0
+    skin:
+      identifier: https://minesk.in/66c01f3e7f884cfea6a404f1b4eaae5c
+      mirrorSkin: false
+      variant: AUTO
+    equipment:
+      HEAD:
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: LEATHER_HORSE_ARMOR
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          display-name: '{"text":"ᴡɪᴛᴄʜ ʜᴀᴛ ","italic":false,"color":"#630193"}'
+          lore:
+          - '{"text":"ᴍᴀᴋᴇ ʙᴇᴛᴛᴇʀ ʟɪǫᴜᴏʀ''''s","italic":false,"color":"gray"}'
+          - '{"text":"ᴡʜᴇɴ ʏᴏᴜ ᴡᴇᴀʀ ᴛʜɪs ","italic":false,"color":"gray"}'
+          custom-model-data:
+            ==: CustomModelData
+            floats:
+            - 2.0
+            flags: []
+            strings: []
+            colors: []
+    visibility_distance: -1
+    actions:
+      RIGHT_CLICK:
+        '1':
+          action: player_command
+          value: jb skgandalf || forms open wizard
+  c3592797-6dfc-48a6-b55f-62f5ea70aef1:
+    name: farmer
+    creator: f7e20c1a-e38a-442e-ad85-f1c8edba4ccd
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: world
+      x: -119.52353003837122
+      y: 67.0
+      z: 13.532146101575325
+      yaw: -59.226837
+      pitch: 3.750227
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    interactionCooldown: 0.0
+    scale: 1.0
+    skin:
+      identifier: 54371be2-2ab5-4bb1-9915-7a190a9e4bce
+      mirrorSkin: false
+      variant: AUTO
+    equipment:
+      HEAD:
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: LEATHER_HORSE_ARMOR
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          display-name: '{"text":"sᴛʀᴀᴡ ʜᴀᴛ ","italic":false,"color":"#FFEC15"}'
+          lore:
+          - '{"text":"ɪᴅᴇᴀʟ ꜰᴏʀ ᴀɴ","italic":false,"color":"gray"}'
+          - '{"text":"ᴇsᴛᴀʙʟɪsʜᴇᴅ ꜰᴀʀᴍᴇʀ ","italic":false,"color":"gray"}'
+          custom-model-data:
+            ==: CustomModelData
+            floats:
+            - 15.0
+            flags: []
+            strings: []
+            colors: []
+    visibility_distance: -1
+    actions:
+      RIGHT_CLICK:
+        '1':
+          action: player_command
+          value: farmer
+  49c1e7b5-bd1f-4f87-9702-0b4e3989d080:
+    name: marcus
+    creator: f7e20c1a-e38a-442e-ad85-f1c8edba4ccd
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: world
+      x: -111.5539
+      y: 64.0
+      z: 3.5829
+      yaw: 112.6535
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    interactionCooldown: 0.0
+    scale: 1.0
+    skin:
+      identifier: https://minesk.in/122fe3f5b04844919ba55d2e8bdd890e
+      mirrorSkin: false
+      variant: AUTO
+    equipment:
+      HEAD:
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: LEATHER_HORSE_ARMOR
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          display-name: '{"text":"sᴛʀᴀᴡ ʜᴀᴛ ","italic":false,"color":"#FFEC15"}'
+          lore:
+          - '{"text":"ɪᴅᴇᴀʟ ꜰᴏʀ ᴀɴ","italic":false,"color":"gray"}'
+          - '{"text":"ᴇsᴛᴀʙʟɪsʜᴇᴅ ꜰᴀʀᴍᴇʀ ","italic":false,"color":"gray"}'
+          custom-model-data:
+            ==: CustomModelData
+            floats:
+            - 15.0
+            flags: []
+            strings: []
+            colors: []
+      MAINHAND:
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: WHEAT
+    visibility_distance: -1
+    actions:
+      RIGHT_CLICK:
+        '1':
+          action: player_command
+          value: jb skmarcus || forms open marcus
+  1e7bfb04-8f9f-4d09-b5c8-278115267a5f:
+    name: petra
+    creator: f7e20c1a-e38a-442e-ad85-f1c8edba4ccd
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: world
+      x: -86.5228
+      y: 66.0
+      z: -21.5035
+      yaw: 90.4472
+      pitch: 1.0279
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    interactionCooldown: 0.0
+    scale: 1.0
+    skin:
+      identifier: https://minesk.in/56d804d95bde42beb50149e6cbff981b
+      mirrorSkin: false
+      variant: AUTO
+    equipment:
+      HEAD:
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: LEATHER_HORSE_ARMOR
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          display-name: '{"text":"ʜᴀʟᴏ ᴄɪʀᴄʟᴇ ","italic":false,"color":"#F1E04A"}'
+          lore:
+          - '{"text":"ᴛᴜʀɴ ʏᴏᴜʀsᴇʟꜰ ɪɴᴛᴏ","italic":false,"color":"gray"}'
+          - '{"text":"ᴀɴ ᴀɴɢᴇʟ ","italic":false,"color":"gray"}'
+          custom-model-data:
+            ==: CustomModelData
+            floats:
+            - 17.0
+            flags: []
+            strings: []
+            colors: []
+      MAINHAND:
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: FLOWER_BANNER_PATTERN
+    visibility_distance: -1
+    actions:
+      RIGHT_CLICK:
+        '1':
+          action: player_command
+          value: jb skpetra || forms open petra_1
+  d28eb67f-2d79-468d-8b78-c9ad6984611d:
+    name: thyra
+    creator: f7e20c1a-e38a-442e-ad85-f1c8edba4ccd
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: world
+      x: -26.4941
+      y: 77.0
+      z: 91.5361
+      yaw: -178.7411
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    interactionCooldown: 0.0
+    scale: 1.0
+    skin:
+      identifier: https://minesk.in/35a5287b7b284feba49cb7f622bbe846
+      mirrorSkin: false
+      variant: AUTO
+    equipment:
+      HEAD:
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: LEATHER_HORSE_ARMOR
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          display-name: '{"text":"ᴠɪᴋɪɴɢ ʜᴀᴛ ","italic":false,"color":"#0077FF"}'
+          lore:
+          - '{"text":"ᴀ ʀᴇᴀʟ ʜᴀᴛ ꜰᴏʀ","italic":false,"color":"gray"}'
+          - '{"text":"ᴀ ᴠɪᴋɪɴɢ ","italic":false,"color":"gray"}'
+          custom-model-data:
+            ==: CustomModelData
+            floats:
+            - 3.0
+            flags: []
+            strings: []
+            colors: []
+    visibility_distance: -1
+    actions:
+      RIGHT_CLICK:
+        '1':
+          action: player_command
+          value: jb skthyra || forms open Thyra
+  ddfe0d51-8125-49fd-a784-c72f02439069:
+    name: noah
+    creator: f7e20c1a-e38a-442e-ad85-f1c8edba4ccd
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: world
+      x: -85.43816338001335
+      y: 69.0
+      z: 95.12607915917972
+      yaw: -90.27652
+      pitch: -2.4002123
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    interactionCooldown: 0.0
+    scale: 1.0
+    skin:
+      identifier: eeeab583-1417-4f3e-9f33-8c788164510d
+      mirrorSkin: false
+      variant: AUTO
+    equipment:
+      HEAD:
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: LEATHER_HORSE_ARMOR
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          display-name: '{"text":"ʜᴀʀᴅ ʜᴀᴛ ","italic":false,"color":"#C78C2E"}'
+          lore:
+          - '{"text":"ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀsᴇʟꜰ ᴏɴ ᴛʜᴇ","italic":false,"color":"gray"}'
+          - '{"text":"ᴄᴏɴsᴛʀᴜᴄᴛɪᴏɴ sɪᴛᴇ ","italic":false,"color":"gray"}'
+          custom-model-data:
+            ==: CustomModelData
+            floats:
+            - 16.0
+            flags: []
+            strings: []
+            colors: []
+      MAINHAND:
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: IRON_PICKAXE
+    visibility_distance: -1
+    actions:
+      RIGHT_CLICK:
+        '1':
+          action: player_command
+          value: jb sknoah || forms open noah
+  d1d5f13d-3bec-4f15-9f5c-40a255bd2a3e:
+    name: miner
+    creator: f7e20c1a-e38a-442e-ad85-f1c8edba4ccd
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: world
+      x: -79.5
+      y: 69.0
+      z: 109.5
+      yaw: 73.9494
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    interactionCooldown: 0.0
+    scale: 1.0
+    skin:
+      identifier: 6f987185-f03e-4780-9259-1eb9299fab4a
+      mirrorSkin: false
+      variant: AUTO
+    equipment:
+      HEAD:
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: IRON_HELMET
+      MAINHAND:
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: IRON_PICKAXE
+    visibility_distance: -1
+    actions:
+      RIGHT_CLICK:
+        '1':
+          action: player_command
+          value: miner
+  3882ab4b-abe9-4e2a-9061-75b720c56a4b:
+    name: cassian
+    creator: f7e20c1a-e38a-442e-ad85-f1c8edba4ccd
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: world
+      x: -100.4447
+      y: 65.0
+      z: -1.442
+      yaw: -89.6841
+      pitch: -3.1499
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    interactionCooldown: 0.0
+    scale: 1.0
+    skin:
+      identifier: https://minesk.in/fcad092e8cfb4679ae17c66efdd778dd
+      mirrorSkin: false
+      variant: AUTO
+    equipment:
+      HEAD:
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: LEATHER_HORSE_ARMOR
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          display-name: '{"text":"ᴄʀᴏᴡɴ ","italic":false,"color":"#E58E02"}'
+          lore:
+          - '{"text":"ᴇxᴄʟᴜsɪᴠᴇ ꜰᴏʀ ᴀ ᴋɪɴɢ ","italic":false,"color":"gray"}'
+          custom-model-data:
+            ==: CustomModelData
+            floats:
+            - 19.0
+            flags: []
+            strings: []
+            colors: []
+      MAINHAND:
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: STICK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":" ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"white"},{"text":"170","italic":false,"color":"white"}]}'
+          custom-model-data:
+            ==: CustomModelData
+            floats:
+            - 205.0
+            flags: []
+            strings: []
+            colors: []
+    visibility_distance: -1
+    actions:
+      RIGHT_CLICK:
+        '1':
+          action: player_command
+          value: jb skcassian || forms open cassian
+  04bf6860-b75d-4b0d-b0a3-4239c06bad26:
+    name: mark
+    creator: f7e20c1a-e38a-442e-ad85-f1c8edba4ccd
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: world
+      x: -132.0805
+      y: 67.0
+      z: -1.8845
+      yaw: -91.4763
+      pitch: 1.4056
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    interactionCooldown: 0.0
+    scale: 1.0
+    skin:
+      identifier: https://minesk.in/e7adf2181d7a4f02bcb4546dab09227d
+      mirrorSkin: false
+      variant: AUTO
+    equipment:
+      HEAD:
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: LEATHER_HORSE_ARMOR
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          display-name: '{"text":"ᴠɪᴋɪɴɢ ʜᴏʀɴs ʜᴀᴛ ","italic":false,"color":"#FFC800"}'
+          lore:
+          - '{"text":"ᴀ sʏᴍʙᴏʟ ꜰᴏʀ","italic":false,"color":"gray"}'
+          - '{"text":"ᴀ ꜰɪɢʜᴛᴇʀ ","italic":false,"color":"gray"}'
+          custom-model-data:
+            ==: CustomModelData
+            floats:
+            - 5.0
+            flags: []
+            strings: []
+            colors: []
+      MAINHAND:
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: GOLDEN_APPLE
+    visibility_distance: -1
+    actions:
+      RIGHT_CLICK:
+        '1':
+          action: player_command
+          value: jb skmark || forms open mark
+  6ac43194-a48a-4efc-a7ba-80130eeaa397:
+    name: august
+    creator: f7e20c1a-e38a-442e-ad85-f1c8edba4ccd
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: world
+      x: -40.5252
+      y: 68.0
+      z: -89.3857
+      yaw: -6.353
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    interactionCooldown: 0.0
+    scale: 1.0
+    skin:
+      identifier: 97c91019-b094-44d8-b4d7-c3e0ba7ff5e9
+      mirrorSkin: false
+      variant: AUTO
+    equipment:
+      HEAD:
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: LEATHER_HORSE_ARMOR
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          display-name: '{"text":"sᴛʀᴀᴡ ʜᴀᴛ ","italic":false,"color":"#FFEC15"}'
+          lore:
+          - '{"text":"ɪᴅᴇᴀʟ ꜰᴏʀ ᴀɴ","italic":false,"color":"gray"}'
+          - '{"text":"ᴇsᴛᴀʙʟɪsʜᴇᴅ ꜰᴀʀᴍᴇʀ ","italic":false,"color":"gray"}'
+          custom-model-data:
+            ==: CustomModelData
+            floats:
+            - 15.0
+            flags: []
+            strings: []
+            colors: []
+      MAINHAND:
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: IRON_HOE
+    visibility_distance: -1
+    actions:
+      RIGHT_CLICK:
+        '1':
+          action: player_command
+          value: jb skaugust || forms open august_1

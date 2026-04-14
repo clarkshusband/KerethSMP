@@ -1,0 +1,2 @@
+{"loggerName":"FancyNpcs","logLevel":"WARN","message":"You are not using the latest version of the FancyNpcs plugin.","timestamp":1731084799196,"threadID":128,"threadName":"ForkJoinPool.commonPool-worker-5","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs (2.3.1) has been enabled.","timestamp":1731084799316,"threadID":67,"threadName":"Server thread","properties":{}}

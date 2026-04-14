@@ -1,0 +1,30 @@
+Settings:
+  Menu_Type: generic_9x6
+  Title: <white>&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔</white>
+  Mode: NORMAL
+  WinSlots: '31'
+  # Sets max. amount of the opening ticks while players can skip the opening animation.
+  # Set to -1 to disable (no skip).
+  Max_Ticks_To_Skip: 20
+  # Sets how soon (in ticks) animation GUI will be closed when completed.
+  # [1 second = 20 ticks]
+  # [Default is 20 ticks]
+  Completion_Pause_Ticks: 20
+  RunOnLaunch:
+    REWARD:
+      main:
+        SpinnerId: default
+        Mode: SEQUENTAL
+        Slots: 28,29,30,31,32,33,34
+        SpinTimes: '40:1:0:5:1'
+        Sound: block.note_block.xylophone
+Content:
+  Default: []
+Spinners:
+  REWARD:
+    default:
+      Rarities:
+      - '*'
+  ANIMATION:
+    rainbow:
+      Items: []

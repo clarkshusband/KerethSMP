@@ -1,0 +1,1090 @@
+Name: '&6Daily Crate'
+Permission_Required: false
+Attached_Citizens: ''
+Opening:
+  Cooldown: 5
+Key:
+  Ids:
+  - daily
+  # Sets whether or not keys are required to open this crate.
+  Required: true
+Block:
+  Pushback:
+    Enabled: false
+  Hologram:
+    Enabled: true
+    Template: daily
+    Y_Offset: 0.0
+  Effect:
+    Model: SIMPLE
+    Particle:
+      Name: 'null'
+  Positions:
+  - -61,66,6,world
+Rewards:
+  List:
+    '1':
+      Name: Iron Sword
+      Weight: 20.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:enchantments":{levels:{"minecraft:sharpness":2,"minecraft:unbreaking":1}}},count:1,id:"minecraft:iron_sword"}'
+    '2':
+      Name: Diamond Helmet
+      Weight: 15.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:enchantments":{levels:{"minecraft:unbreaking":2}}},count:1,id:"minecraft:diamond_helmet"}'
+    '3':
+      Name: Crossbow
+      Weight: 25.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:enchantments":{levels:{"minecraft:piercing":2,"minecraft:unbreaking":1}}},count:1,id:"minecraft:crossbow"}'
+    '4':
+      Name: Iron Ingot
+      Weight: 23.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{count:24,id:"minecraft:iron_ingot"}'
+    '5':
+      Name: Cherry Wood
+      Weight: 30.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:damage":0},count:24,id:"minecraft:cherry_wood"}'
+    '6':
+      Name: Golden Horse Armor
+      Weight: 22.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:damage":0},count:1,id:"minecraft:golden_horse_armor"}'
+    '7':
+      Name: '&aʜᴀᴍᴍᴏᴄᴋ'
+      Weight: 20.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"furniturelib:model":"Hammock"}},"minecraft:custom_name":''{"color":"green","italic":false,"text":"ʜᴀᴍᴍᴏᴄᴋ"}'',"minecraft:lore":[''{"color":"gray","italic":false,"text":"ᴀ ꜱᴘᴀᴄɪᴏᴜꜱ 7x1 ʜᴀᴍᴍᴏᴄᴋ, ɪᴅᴇᴀʟ"}'',''{"color":"gray","italic":false,"text":"ꜰᴏʀ ʀᴇʟᴀxɪɴɢ ɪɴ ɴᴀᴛᴜʀᴇ"}'']},count:1,id:"minecraft:book"}'
+    '8':
+      Name: '#633511ᴅᴇᴇʀ ᴀɴᴛʟᴇʀs '
+      Weight: 23.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      Required_Permissions: []
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:custom_model_data":{floats:[10.0f]},"minecraft:custom_name":''{"color":"#633511","italic":false,"text":"ᴅᴇᴇʀ ᴀɴᴛʟᴇʀs "}'',"minecraft:lore":[''{"color":"gray","italic":false,"text":"ᴀ ᴍɪɢʜᴛʏ ᴛʀᴏᴘʜʏ"}'',''{"color":"gray","italic":false,"text":"ᴏғ ᴛʜᴇ ғᴏʀᴇsᴛ "}'']},count:1,id:"minecraft:leather_horse_armor"}'
+    '9':
+      Name: Fox Spawn Egg
+      Weight: 12.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{count:1,id:"minecraft:fox_spawn_egg"}'
+    '10':
+      Name: Diamond Pickaxe
+      Weight: 17.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:enchantments":{levels:{"minecraft:efficiency":2,"minecraft:unbreaking":1}}},count:1,id:"minecraft:diamond_pickaxe"}'
+    '11':
+      Name: Iron Chestplate
+      Weight: 18.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:enchantments":{levels:{"minecraft:unbreaking":2}}},count:1,id:"minecraft:iron_chestplate"}'
+    '13':
+      Name: Bow
+      Weight: 28.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:enchantments":{levels:{"minecraft:power":2,"minecraft:unbreaking":2}}},count:1,id:"minecraft:bow"}'
+    '14':
+      Name: Diamond
+      Weight: 22.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:damage":0},count:6,id:"minecraft:diamond"}'
+    '15':
+      Name: Crimson Stem
+      Weight: 30.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:damage":0},count:40,id:"minecraft:crimson_stem"}'
+    '16':
+      Name: Redstone Comparator
+      Weight: 30.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:damage":0},count:4,id:"minecraft:comparator"}'
+    '17':
+      Name: '&asᴄᴀʀᴇᴄʀᴏᴡ'
+      Weight: 23.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"furniturelib:model":"Scarecrow"}},"minecraft:custom_name":''{"color":"green","italic":false,"text":"sᴄᴀʀᴇᴄʀᴏᴡ"}'',"minecraft:lore":[''{"color":"gray","italic":false,"text":"ᴀ ꜱᴄᴀʀᴇᴄʀᴏᴡ, ɪᴅᴇᴀʟ ꜰᴏʀ"}'',''{"color":"gray","italic":false,"text":"ᴅᴇᴄᴏʀᴀᴛɪɴɢ ʏᴏᴜʀ ꜰᴀʀᴍ."}'']},count:1,id:"minecraft:book"}'
+    '12':
+      Name: '&aʙᴀᴄᴋᴘᴀᴄᴋ ᴛɪᴇʀ ɪ'
+      Weight: 20.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      Required_Permissions: []
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"dreambackpacks:backpack_id":"873da3f5-6490-4cc7-a0ec-9d6b1581e908","dreambackpacks:backpack_item":"Backpack1"}},"minecraft:custom_model_data":{floats:[100.0f]},"minecraft:custom_name":''{"extra":[{"bold":false,"color":"green","italic":false,"obfuscated":false,"strikethrough":false,"text":"ʙᴀᴄᴋᴘᴀᴄᴋ ᴛɪᴇʀ ɪ","underlined":false}],"text":""}'',"minecraft:lore":[''{"extra":[{"bold":false,"color":"dark_gray","italic":false,"obfuscated":false,"strikethrough":false,"text":"ꜱʟᴏᴛꜱ:
+            9","underlined":false}],"text":""}'',''""'',''{"extra":[{"bold":false,"color":"aqua","italic":false,"obfuscated":false,"strikethrough":false,"text":"ɪᴛᴇᴍꜱ","underlined":false}],"text":""}'',''""'',''""'',''{"extra":[{"bold":false,"color":"white","italic":false,"obfuscated":false,"strikethrough":false,"text":" ","underlined":false},{"color":"yellow","italic":false,"text":"ʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ"}],"text":""}'']},count:1,id:"minecraft:leather_horse_armor"}'
+    '18':
+      Name: Netherite Axe
+      Weight: 10.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:enchantments":{levels:{"minecraft:efficiency":4,"minecraft:sharpness":4}}},count:1,id:"minecraft:netherite_axe"}'
+    '19':
+      Name: Iron Axe
+      Weight: 20.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:enchantments":{levels:{"minecraft:efficiency":2,"minecraft:unbreaking":1}}},count:1,id:"minecraft:iron_axe"}'
+    '20':
+      Name: Iron Leggings
+      Weight: 18.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:enchantments":{levels:{"minecraft:unbreaking":2}}},count:1,id:"minecraft:iron_leggings"}'
+    '21':
+      Name: Fishing Rod
+      Weight: 33.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:enchantments":{levels:{"minecraft:luck_of_the_sea":2,"minecraft:unbreaking":1}}},count:1,id:"minecraft:fishing_rod"}'
+    '22':
+      Name: Netherite Ingot
+      Weight: 20.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:damage":0},count:1,id:"minecraft:netherite_ingot"}'
+    '23':
+      Name: Purpur Pillar
+      Weight: 30.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:damage":0},count:40,id:"minecraft:purpur_pillar"}'
+    '24':
+      Name: Ender Chest
+      Weight: 24.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:damage":0},count:1,id:"minecraft:ender_chest"}'
+    '25':
+      Name: '&f'
+      Weight: 12.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      Required_Permissions: []
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:custom_model_data":{floats:[145.0f]},"minecraft:custom_name":''{"extra":[{"bold":false,"color":"white","italic":false,"obfuscated":false,"strikethrough":false,"text":"","underlined":false}],"text":""}'',"minecraft:lore":[''{"extra":[{"bold":false,"color":"gray","italic":false,"obfuscated":false,"strikethrough":false,"text":"ɪᴛ ᴄᴀɴ ʙᴇ ᴜꜱᴇᴅ ᴛᴏ ᴇɴᴛᴇʀ","underlined":false}],"text":""}'',''{"extra":[{"bold":false,"color":"gray","italic":false,"obfuscated":false,"strikethrough":false,"text":"ᴛʜᴇ
+            ᴇᴀꜱʏ ᴅᴜɴɢᴇᴏɴ ᴀʀᴇɴᴀ","underlined":false}],"text":""}'',''""'',''{"extra":[{"bold":false,"color":"dark_gray","italic":false,"obfuscated":false,"strikethrough":false,"text":"ɢɪᴠᴇ ᴛʜɪs ᴋᴇʏ ᴛᴏ ᴛʜʏʀᴀ","underlined":false}],"text":""}'']},count:2,id:"minecraft:stick"}'
+    '26':
+      Name: '&f'
+      Weight: 10.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      Required_Permissions: []
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"balanced"}},"minecraft:custom_model_data":{floats:[142.0f]},"minecraft:custom_name":''{"extra":[{"color":"white","italic":false,"text":"ⶽ "},{"color":"aqua","italic":false,"text":"Balanced Key"}],"text":""}'',"minecraft:damage":0,"minecraft:hide_additional_tooltip":{},"minecraft:lore":[''{"extra":[{"color":"gray","italic":false,"text":"ᴜsᴇ ᴛʜɪs ᴋᴇʏ ᴀᴛ"}],"text":""}'',''{"extra":[{"color":"gray","italic":false,"text":"/ᴡᴀʀᴘ
+            ᴄʀᴀᴛᴇs"}],"text":""}'',''""'',''{"extra":[{"color":"dark_gray","italic":false,"text":"ʙᴀʟᴀɴᴄᴇᴅ ᴄʀᴀᴛᴇ"}],"text":""}'']},count:2,id:"minecraft:stick"}'
+    '27':
+      Name: Diamond Chestplate
+      Weight: 10.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:enchantments":{levels:{"minecraft:protection":4,"minecraft:thorns":3}}},count:1,id:"minecraft:diamond_chestplate"}'
+    '28':
+      Name: Diamond Shovel
+      Weight: 22.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:enchantments":{levels:{"minecraft:efficiency":2,"minecraft:unbreaking":1}}},count:1,id:"minecraft:diamond_shovel"}'
+    '29':
+      Name: Diamond Boots
+      Weight: 17.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:enchantments":{levels:{"minecraft:unbreaking":2}}},count:1,id:"minecraft:diamond_boots"}'
+    '30':
+      Name: Shears
+      Weight: 35.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:enchantments":{levels:{"minecraft:unbreaking":3}}},count:1,id:"minecraft:shears"}'
+    '31':
+      Name: Block of Coal
+      Weight: 20.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:damage":0},count:6,id:"minecraft:coal_block"}'
+    '32':
+      Name: Shroomlight
+      Weight: 25.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:damage":0},count:24,id:"minecraft:shroomlight"}'
+    '33':
+      Name: Sticky Piston
+      Weight: 23.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:damage":0},count:3,id:"minecraft:sticky_piston"}'
+    '34':
+      Name: '&f'
+      Weight: 10.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      Required_Permissions: []
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:custom_model_data":{floats:[146.0f]},"minecraft:custom_name":''{"extra":[{"bold":false,"color":"white","italic":false,"obfuscated":false,"strikethrough":false,"text":"","underlined":false}],"text":""}'',"minecraft:lore":[''{"extra":[{"bold":false,"color":"gray","italic":false,"obfuscated":false,"strikethrough":false,"text":"ɪᴛ ᴄᴀɴ ʙᴇ ᴜꜱᴇᴅ ᴛᴏ ᴇɴᴛᴇʀ","underlined":false}],"text":""}'',''{"extra":[{"bold":false,"color":"gray","italic":false,"obfuscated":false,"strikethrough":false,"text":"ᴛʜᴇ
+            ᴍᴇᴅɪᴜᴍ ᴅᴜɴɢᴇᴏɴ ᴀʀᴇɴᴀ","underlined":false}],"text":""}'',''""'',''{"extra":[{"bold":false,"color":"dark_gray","italic":false,"obfuscated":false,"strikethrough":false,"text":"ɢɪᴠᴇ ᴛʜɪs ᴋᴇʏ ᴛᴏ ᴛʜʏʀᴀ","underlined":false}],"text":""}'']},count:1,id:"minecraft:stick"}'
+    '35':
+      Name: '&f'
+      Weight: 7.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      Required_Permissions: []
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"diversity"}},"minecraft:custom_model_data":{floats:[143.0f]},"minecraft:custom_name":''{"extra":[{"color":"white","italic":false,"text":"ⶾ "},{"color":"red","italic":false,"text":"Diversity Key"}],"text":""}'',"minecraft:damage":0,"minecraft:hide_additional_tooltip":{},"minecraft:lore":[''{"extra":[{"color":"gray","italic":false,"text":"ᴜsᴇ ᴛʜɪs ᴋᴇʏ ᴀᴛ"}],"text":""}'',''{"extra":[{"color":"gray","italic":false,"text":"/ᴡᴀʀᴘ
+            ᴄʀᴀᴛᴇs"}],"text":""}'',''""'',''{"extra":[{"color":"dark_gray","italic":false,"text":"ᴅɪᴠᴇʀsɪᴛʏ ᴄʀᴀᴛᴇ"}],"text":""}'']},count:1,id:"minecraft:stick"}'
+    '36':
+      Name: '&dꜱᴘᴀᴡɴᴇʀ'
+      Weight: 2.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:custom_name":''{"extra":[{"bold":false,"color":"light_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"ꜱᴘᴀᴡɴᴇʀ","underlined":false}],"text":""}'',"minecraft:lore":[''{"extra":[{"bold":false,"color":"yellow","italic":false,"obfuscated":false,"strikethrough":false,"text":"Spider","underlined":false}],"text":""}'']},count:1,id:"minecraft:spawner"}'
+    '37':
+      Name: Iron Hoe
+      Weight: 28.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:enchantments":{levels:{"minecraft:unbreaking":2}}},count:1,id:"minecraft:iron_hoe"}'
+    '38':
+      Name: Shield
+      Weight: 32.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:enchantments":{levels:{"minecraft:unbreaking":3}}},count:1,id:"minecraft:shield"}'
+    '39':
+      Name: Brush
+      Weight: 35.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:enchantments":{levels:{"minecraft:unbreaking":3}}},count:1,id:"minecraft:brush"}'
+    '40':
+      Name: Oxidised Copper
+      Weight: 18.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:damage":0},count:4,id:"minecraft:oxidized_copper"}'
+    '41':
+      Name: White Glazed Terracotta
+      Weight: 25.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{count:32,id:"minecraft:white_glazed_terracotta"}'
+    '42':
+      Name: Bookshelf
+      Weight: 23.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{count:8,id:"minecraft:bookshelf"}'
+    '43':
+      Name: '&f'
+      Weight: 4.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      Required_Permissions: []
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:custom_model_data":{floats:[147.0f]},"minecraft:custom_name":''{"extra":[{"bold":false,"color":"white","italic":false,"obfuscated":false,"strikethrough":false,"text":"","underlined":false}],"text":""}'',"minecraft:lore":[''{"extra":[{"bold":false,"color":"gray","italic":false,"obfuscated":false,"strikethrough":false,"text":"ɪᴛ ᴄᴀɴ ʙᴇ ᴜꜱᴇᴅ ᴛᴏ ᴇɴᴛᴇʀ","underlined":false}],"text":""}'',''{"extra":[{"bold":false,"color":"gray","italic":false,"obfuscated":false,"strikethrough":false,"text":"ᴛʜᴇ
+            ʜᴀʀᴅ ᴅᴜɴɢᴇᴏɴ ᴀʀᴇɴᴀ","underlined":false}],"text":""}'',''""'',''{"extra":[{"bold":false,"color":"dark_gray","italic":false,"obfuscated":false,"strikethrough":false,"text":"ɢɪᴠᴇ ᴛʜɪs ᴋᴇʏ ᴛᴏ ᴛʜʏʀᴀ","underlined":false}],"text":""}'']},count:1,id:"minecraft:stick"}'
+    '44':
+      Name: '&f'
+      Weight: 3.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      Required_Permissions: []
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"epic"}},"minecraft:custom_model_data":{floats:[144.0f]},"minecraft:custom_name":''{"extra":[{"color":"white","italic":false,"text":"⶿ "},{"color":"light_purple","italic":false,"text":"Epic Key"}],"text":""}'',"minecraft:damage":0,"minecraft:hide_additional_tooltip":{},"minecraft:lore":[''{"extra":[{"color":"gray","italic":false,"text":"ᴜsᴇ ᴛʜɪs ᴋᴇʏ ᴀᴛ"}],"text":""}'',''{"extra":[{"color":"gray","italic":false,"text":"/ᴡᴀʀᴘ
+            ᴄʀᴀᴛᴇs"}],"text":""}'',''""'',''{"extra":[{"color":"dark_gray","italic":false,"text":"ᴇᴘɪᴄ ᴄʀᴀᴛᴇ"}],"text":""}'']},count:1,id:"minecraft:stick"}'
+    '45':
+      Name: '&dꜱᴘᴀᴡɴᴇʀ'
+      Weight: 2.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          ItemTag: '{components:{"minecraft:custom_name":''{"extra":[{"bold":false,"color":"light_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"ꜱᴘᴀᴡɴᴇʀ","underlined":false}],"text":""}'',"minecraft:lore":[''{"extra":[{"bold":false,"color":"yellow","italic":false,"obfuscated":false,"strikethrough":false,"text":"Chicken","underlined":false}],"text":""}'']},count:1,id:"minecraft:spawner"}'
+Milestones:
+  Repeatable: false
+Last_Opener: MihiBlu
+Last_Reward: Brush
+_dataver: 600
+ItemProvider:
+  Type: VANILLA
+  ItemTag: '{count:1,id:"minecraft:orange_stained_glass_pane"}'
+Preview:
+  Enabled: true
+  Id: daily
+Animation:
+  Enabled: true
+  Id: daily
+Description: []

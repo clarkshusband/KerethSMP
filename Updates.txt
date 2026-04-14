@@ -1,0 +1,21 @@
+
+            Dream Survival
+         by Dream Developments
+
+╭ ABOUT UPDATING THE SERVER
+| This document helps you to update the server without losing player progress.
+| This update only offers the transition from 6.2 to 6.3. Be sure that before switching to 6.3 you go through all the previous updates so that the server works perfectly.
+
+
+UPDATE ・ Version 6.3
+1. Go to "plugins > Dream Core > config.yml", on your current server files, and download your old texturepack used via the link.
+2. Go to "Texture Pack" folder, read "Important.txt" and then link new texturepacks to new Dream Core config. (from new Server Files)
+3. Copy the content of "Update 6.3" folder
+4. Paste it in your server's main folder
+5. You're good to go :)
+
+
+UPDATE ・ Files Removed
+1. Citizens (folder & jar)
+
+

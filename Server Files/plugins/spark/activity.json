@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "MihiBlu",
+      "uniqueId": "a690f470-5ddd-4af8-a24e-265f91a6c597"
+    },
+    "time": 1726759044165,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/lCezWJtWq6"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "MihiBlu",
+      "uniqueId": "a690f470-5ddd-4af8-a24e-265f91a6c597"
+    },
+    "time": 1726754310999,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/52X9o3FBUN"
+    }
+  }
+]
